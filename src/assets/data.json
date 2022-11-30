@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Peppermint Mocha",
+        "temperature": "Hot",
+        "seasonal": "Yes",
+        "calories": "440",
+        "price": "6.00",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Iced Sugar Cookie Almondmilk Latte",
+        "temperature": "Cold",
+        "seasonal": "Yes",
+        "calories": "150",
+        "price": "6.00",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Iced Chestnut Praline Latte",
+        "temperature": "Cold",
+        "seasonal": "Yes",
+        "calories": "320",
+        "price": "6.00",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Hot Chocolate",
+        "temperature": "Hot",
+        "seasonal": "No",
+        "calories": "370",
+        "price": "3.95",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Cappucino",
+        "temperature": "Hot",
+        "seasonal": "No",
+        "calories": "140",
+        "price": "4.65",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Vanilla Sweet Cream Cold Brew",
+        "temperature": "Cold",
+        "seasonal": "No",
+        "calories": "110",
+        "price": "4.65",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Nitro Cold Brew",
+        "temperature": "Cold",
+        "seasonal": "No",
+        "calories": "5",
+        "price": "5.45",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Toasted White Hot Chocolate",
+        "temperature": "Hot",
+        "seasonal": "Yes",
+        "calories": "430",
+        "price": "4.75",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Iced Brown Sugar Oatmilk Shaken Espresso",
+        "temperature": "Cold",
+        "seasonal": "No",
+        "calories": "120",
+        "price": "5.75",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Caffe Misto",
+        "temperature": "Hot",
+        "seasonal": "No",
+        "calories": "110",
+        "price": "3.65",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Pumpkin Spice Latte",
+        "temperature": "Hot",
+        "seasonal": "Yes",
+        "calories": "390",
+        "price": "5.75",
+        "size": "Grande"
+    },
+
+    {
+        "name": "Iced Blonde Vanilla Latte",
+        "temperature": "Cold",
+        "seasonal": "No",
+        "calories": "190",
+        "price": "5.45",
+        "size": "Grande"
+    }
+]
