@@ -1,5 +1,5 @@
 import './App.css';
-import MultipleChecks from '/Users/isabelaantoniuk/Desktop/cs1300/Development/src/components/MultipleChecks.js';
+import MultipleChecks from './MultipleChecks.js';
 
 function App() {
   return (
