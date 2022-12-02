@@ -1,21 +1,45 @@
-import React, { Component } from "react";
 
-export default class Checkbox extends Component {
-  render() {
-    const {name, temperature, seasonal, handleChange, checked } = this.props;
+function Checkbox({tempFilter: applyTempFilter, seasonalFilter: applySeasonalFilter, removeTempFilter, removeSeasonalFilter}){
+    const handleTempFilterChange = (event, temperature) => {
+        if(event.target.checked == true){
+            applyTempFilter(temperature)
+        } else {
+            removeTempFilter(temperature)
+        }
+    }
+
+    const handleSeasonalFilterChange = (event, seasonal) => {
+        if(event.target.checked == true){
+            applySeasonalFilter(seasonal)
+        } else {
+            removeSeasonalFilter(seasonal)
+        }
+    }
 
     return (
-      <div>
-        <input
-          name={name}
-          temperature={temperature}
-          type="checkbox"
-          seasonal={seasonal}
-          onChange={handleChange}
-          checked={checked}
-        />
-        <label htmlFor={name}>{temperature}</label>
-      </div>
-    );
-  }
+        <div>
+            <div>
+                <label>
+                    <input type="checkbox" onChange={event => handleTempFilterChange(event, "Hot")}/>
+                    Hot Drinks
+                </label>
+                <label>
+                    <input type="checkbox" onChange={event => handleTempFilterChange(event, "Cold")}/>
+                    Cold Drinks
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" onChange={event => handleSeasonalFilterChange(event, "Yes")}/>
+                    Seasonal Drinks
+                </label>
+                <label>
+                    <input type="checkbox" onChange={event => handleSeasonalFilterChange(event, "No")}/>
+                    Classic Menu
+                </label>   
+            </div>
+        </div>
+    )
 }
+
+export default Checkbox
