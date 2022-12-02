@@ -1,9 +1,9 @@
-import data from "/Users/isabelaantoniuk/Desktop/cs1300/Development/src/assets/data.json";
+import data from "./assets/data.json";
 import { DrinkItem } from './components/Drinkitem.js';
 import { useEffect, useState } from 'react';
 import Checkbox from "./Checkbox.js"
 import Sort from "./components/Sort.js"
-import '/Users/isabelaantoniuk/Desktop/cs1300/Development/src/App.css';
+import './App.css';
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 data.forEach((item) => {
