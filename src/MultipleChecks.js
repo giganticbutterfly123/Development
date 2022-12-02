@@ -1,7 +1,7 @@
 import data from "/Users/isabelaantoniuk/Desktop/cs1300/Development/src/assets/data.json";
 import { DrinkItem } from './components/Drinkitem.js';
 import { useEffect, useState } from 'react';
-import Checkbox from "./components/Checkbox.js"
+import Checkbox from "./Checkbox.js"
 import Sort from "./components/Sort.js"
 import '/Users/isabelaantoniuk/Desktop/cs1300/Development/src/App.css';
 
